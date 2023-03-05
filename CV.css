@@ -91,3 +91,9 @@ p{
     margin: 4px;
     padding: 2px;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 4px 6px 4px 50px;
+}
