@@ -7,16 +7,24 @@
     <title>Proyecto Final</title>
 </head>
 <body>
-    
+    <header>
+        <h1 id="Titulo principal">Proyecto Final</h1>
+    </header>
 
+    <nav =>
+        <a href="#">Datos Personales</a>
+        <a href="#">Contacto</a>
+        <a href="#">Sobre mi</a>
+    </nav>
 
 
 
 
 
     <div>
-    <script>
+    <script src= "js/acciones-CV.js">
     
+
     fetch('https://randomuser.me/api/?seed=3bc0d153ee796bf4')
         .then(response => response.json())
         .then(data => console.log(data));
