@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: silver;
 
@@ -11,7 +16,7 @@ header{
 
     margin: 5px 10px 5px 10px;
     padding: 3px 3px 3px 3px;
-    
+    border: solid silver 4px;
 }
 
 h1{
@@ -45,15 +50,44 @@ p{
     font-size: 15px;
     margin: 3px 2px 3px 2px;
     padding: 1px 1px 1px 1px;
+    
 }
 
-.principal.div{
-    
-    
-    
-    
-    background-color: black;
-
+.principal-div{
+   
+    display: grid;
+   grid-template-columns: auto auto auto;
+   
+    width: 100%;
+    background-color: black ;
+    margin:auto;
+    padding: 15px;
+    border: solid white;
 }
 
+#datos{
+    width: 250px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 4px;
+    padding: 2px;
+}
 
+#contacto{
+    width: 200px;
+    height: 100px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 4px;
+    padding: 2px;
+}
+
+#exp{
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+    text-align: justify;
+    margin: 4px;
+    padding: 2px;
+}
