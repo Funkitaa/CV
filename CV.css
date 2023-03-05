@@ -1,0 +1,34 @@
+body{
+    background-color: silver;
+
+}
+header{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+ color: white;
+ font-size: 60px;
+
+}
+
+h2{
+ color: grey;
+ font-size: 30px 
+}
+
+h3{
+    color: grey;
+    font-size: 30px;
+}
+
+li{
+    color: white;
+    font-size: 15px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+}
